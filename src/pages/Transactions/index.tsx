@@ -8,8 +8,8 @@ import { PriceHighlight, TransactionsContainer, TrasactionsTable } from "./style
 
 
 export function Transaction() {
-  const { transactions } = useContext {TransactionContext};
-
+  const { transactions } = useContext (TransactionContext);
+  
 
   return (
     <div>
@@ -27,7 +27,7 @@ export function Transaction() {
               <td width="50%">{transaction.descripition}</td>
               <td>
                 <PriceHighlight variant={transaction.type}>
-                R$ {transaction.price}
+                R$ {transaction.price}     
                 </PriceHighlight>
               </td> 
               <td>{transaction.category}</td>

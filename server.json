@@ -15,6 +15,31 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2024-08-06"
+    },
+        {
+      "id": 3,
+      "descripition": "Dev-pref",
+      "type": "income",
+      "category": "Salário",
+      "price": 2380,
+      "createdAt": "2025-12-30"
+    },
+       {
+      "id": 4,
+      "descripition": "Presente",
+      "type": "outcome",
+      "category": "Namorada",
+      "price": 2280,
+      "createdAt": "2025-09-30"
+    },
+
+       {
+      "id": 5,
+      "descripition": "Flor",
+      "type": "outcome",
+      "category": "Namorada",
+      "price": 20,
+      "createdAt": "2025-09-30"
     }
   ]
 }
